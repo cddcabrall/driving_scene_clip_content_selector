@@ -2,7 +2,7 @@
 
 Application information
 
-driving_scene_clip_content_selector_GUI v 1.0 (Jan 16th, 2019)
+driving_scene_content_video_clip_selector_GUI v 1.0 (Jan 16th, 2019)
 
 Christopher Donald Douglas Cabrall c.d.d.cabrall@tudelft.nl TUDelft Human Factors of Automated Driving
 
