@@ -12,33 +12,45 @@ _________________________________
 _________________________________
 MATLAB Compiler
 
-Prerequisites for Deployment
-. Verify the MATLAB Runtime is installed and ensure you
-have installed version ***X.? (R201?a/b)***.
+1. Prerequisites for Deployment 
 
-. If the MATLAB Runtime is not installed, do the following: (1) enter
+Verify that version 9.3 (R2017b) of the MATLAB Runtime is installed.   
 
-  >>mcrinstaller
+If the MATLAB Runtime is not installed, you can run the MATLAB Runtime installer.
+To find its location, enter
   
-  at MATLAB prompt. The MCRINSTALLER command displays the 
-  location of the MATLAB Runtime installer.
-(2) run the MATLAB Runtime installer.
+    >>mcrinstaller
+      
+at the MATLAB prompt.
 
-Or download the Windows 64-bit version of the MATLAB Runtime for R2015b from the MathWorks Web site by navigating to
+Alternatively, download and install the Windows version of the MATLAB Runtime for R2017b 
+from the following link on the MathWorks website:
 
-http://www.mathworks.com/products/compiler/mcr/index.html
+    http://www.mathworks.com/products/compiler/mcr/index.html
+   
+For more information about the MATLAB Runtime and the MATLAB Runtime installer, see 
+Package and Distribute in the MATLAB Compiler documentation  
+in the MathWorks Documentation Center.    
 
-For more information about the MATLAB Runtime and the MATLAB Runtime installer, see Package and Distribute in the MATLAB Compiler documentation
-in the MathWorks Documentation Center.
+NOTE: You will need administrator rights to run the MATLAB Runtime installer. 
 
-NOTE: You will need administrator rights to run MCRInstaller.
 
-Files to Deploy and Package
-Files to package for Standalone
+2. Files to Deploy and Package
 
--nback_GUI.ctf (component technology file) -nback_GUI.exe -MCRInstaller.exe -if end users are unable to download the MATLAB Runtime using the above
-link, include it when building your component by clicking the "Runtime downloaded from web" link in the Deployment Tool -This readme file
+Files to Package for Standalone 
+================================
+-driving_scene_content_video_clip_selector_GUI.exe
+-MCRInstaller.exe 
+    Note: if end users are unable to download the MATLAB Runtime using the
+    instructions in the previous section, include it when building your 
+    component by clicking the "Runtime downloaded from web" link in the
+    Deployment Tool.
+-This readme file 
 
-Definitions
-For information on deployment terminology, go to http://www.mathworks.com/help. Select MATLAB Compiler >
-Getting Started > About Application Deployment > Deployment Product Terms in the MathWorks Documentation Center.
+3. Definitions
+
+For information on deployment terminology, go to
+http://www.mathworks.com/help and select MATLAB Compiler >
+Getting Started > About Application Deployment >
+Deployment Product Terms in the MathWorks Documentation
+Center.
