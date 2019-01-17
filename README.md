@@ -25,7 +25,7 @@ To find its location, enter
   
     >>mcrinstaller
       
-at the MATLAB prompt.
+at the MATLAB prompt. 
 
 Alternatively, download and install the Windows version of the MATLAB Runtime for R2017b 
 from the following link on the MathWorks website:
